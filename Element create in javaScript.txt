@@ -1,0 +1,10 @@
+<script>
+
+    const heading = document.createElement("h3");
+    heading.innerHTML= "Hello World from JavaScript";
+
+    const root = document.getElementById('root');
+
+    root.appendChild(heading);
+
+</script>
